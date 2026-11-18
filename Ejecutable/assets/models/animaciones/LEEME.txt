@@ -1,0 +1,1 @@
+Coloca aqui Walking.fbx (y opcionalmente Idle.fbx, Running.fbx) de Mixamo.

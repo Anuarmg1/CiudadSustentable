@@ -1,0 +1,67 @@
+{
+  "source_sha256": "60b11d2c1aa3c5990f683f0ec55a02d6116a83f9a54d0cefc601ecb9e0933d58",
+  "original_file_unchanged": true,
+  "unchanged_other_objects": 438,
+  "replaced_groups": [
+    {
+      "original": "Botes_Separacion",
+      "replacement": "Botes_Interactivos_01",
+      "scale": 0.9292928839858583,
+      "position": [
+        33.5,
+        -24.19999885559082,
+        0.15000000596046448
+      ],
+      "lids": [
+        "Bote_Reciclable_Tapa__01",
+        "Bote_Organico_Tapa__01",
+        "Bote_No_Reciclable_Tapa__01"
+      ]
+    },
+    {
+      "original": "Botes_Separacion.001",
+      "replacement": "Botes_Interactivos_02",
+      "scale": 0.9292928839858583,
+      "position": [
+        4.416555404663086,
+        11.85749340057373,
+        0.15000000596046448
+      ],
+      "lids": [
+        "Bote_Reciclable_Tapa__02",
+        "Bote_Organico_Tapa__02",
+        "Bote_No_Reciclable_Tapa__02"
+      ]
+    },
+    {
+      "original": "Botes_Separacion.002",
+      "replacement": "Botes_Interactivos_03",
+      "scale": 0.9292928839858583,
+      "position": [
+        -4.416555404663086,
+        8.642505645751953,
+        0.15000000596046448
+      ],
+      "lids": [
+        "Bote_Reciclable_Tapa__03",
+        "Bote_Organico_Tapa__03",
+        "Bote_No_Reciclable_Tapa__03"
+      ]
+    }
+  ],
+  "lid_count": 9,
+  "authorized_openings": [
+    {
+      "body": "Bote_Reciclable",
+      "removed_top_faces": 3
+    },
+    {
+      "body": "Bote_Organico",
+      "removed_top_faces": 3
+    },
+    {
+      "body": "Bote_No_Reciclable",
+      "removed_top_faces": 3
+    }
+  ]
+}
