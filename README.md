@@ -1,96 +1,39 @@
-\# Ciudad Sustentable
+# Ciudad Sustentable 🌱
 
+**Autor:** Meléndez Gómez Anuar  
+**Proyecto:** Computación Gráfica  
+**Lenguaje:** C++  
+**Tecnologías:** OpenGL, GLFW, GLAD, GLM, Assimp y Blender.
 
+## Descripción
 
-\## Descripción del proyecto
+**Ciudad Sustentable** es un proyecto de computación gráfica desarrollado en C++ y OpenGL que representa un entorno tridimensional interactivo orientado a mostrar diferentes elementos relacionados con la sustentabilidad urbana.
 
+El escenario incluye edificios, calles, áreas verdes, vehículos, sistemas de alumbrado y objetos interactivos. El usuario puede explorar la ciudad mediante un personaje animado y participar en actividades relacionadas con el reciclaje, la movilidad, el ahorro de energía y el uso responsable de los recursos.
 
+## Características principales
 
-Ciudad Sustentable es un proyecto académico desarrollado para la materia de Computación Gráfica de la Universidad Nacional Autónoma de México (UNAM), Facultad de Ingeniería.
+- **Entorno 3D:** modelado en Blender e importado mediante archivos FBX.
+- **Iluminación:** modelo de Phong, reflexiones Fresnel, sombras y ciclo de día y noche.
+- **Animaciones:** movimiento procedural de vehículos, bicicletas y otros elementos.
+- **Personaje interactivo:** desplazamiento mediante teclado y animación esquelética.
+- **Cámaras:** perspectivas en primera persona, tercera persona, isométrica y libre.
+- **Interactividad:** apertura de puertas, ventanas, contenedores de reciclaje y activación de objetos.
+- **Recorrido guiado:** actividades que permiten explorar las funcionalidades de la ciudad.
 
+## Estructura del proyecto
 
+El código está organizado en módulos que administran el renderizado, los modelos tridimensionales, las animaciones, las cámaras, las texturas y las interacciones.
 
-El proyecto consiste en la representación de un entorno urbano tridimensional mediante técnicas de computación gráfica, incorporando modelos 3D, texturas y elementos relacionados con la sustentabilidad.
+El archivo `main.cpp` coordina la inicialización de OpenGL, la carga de recursos y el ciclo principal de ejecución.
 
+## Objetivo
 
+Aplicar los conocimientos de computación gráfica mediante el desarrollo de un escenario tridimensional que integre modelado, transformaciones geométricas, iluminación, animación e interacción en tiempo real.
 
-\## Estructura del repositorio
+## Autor
 
+**Meléndez Gómez Anuar**
 
-
-El repositorio está organizado de la siguiente manera:
-
-
-
-\- \*\*Documentación/\*\*: Contiene la documentación técnica, el manual de usuario y los documentos relacionados con el desarrollo del proyecto.
-
-\- \*\*Ejecutable/\*\*: Contiene la aplicación Ciudad Sustentable y los recursos necesarios para su funcionamiento.
-
-
-
-\## Instrucciones de ejecución
-
-
-
-Para ejecutar el proyecto:
-
-
-
-1\. Seleccionar el botón \*\*Code\*\* en GitHub.
-
-2\. Elegir \*\*Download ZIP\*\*.
-
-3\. Extraer el contenido del archivo descargado.
-
-4\. Abrir la carpeta `Ejecutable`.
-
-5\. Hacer doble clic en `CiudadSustentable.exe`.
-
-
-
-\*\*Importante:\*\* No modificar ni eliminar la carpeta `assets` o el archivo `assimp-vc143-mt.dll`, ya que son necesarios para el funcionamiento de la aplicación.
-
-
-
-\## Requisitos
-
-
-
-\- Sistema operativo Windows compatible.
-
-\- Tarjeta gráfica con soporte para las características gráficas utilizadas por la aplicación.
-
-
-
-\## Tecnologías utilizadas
-
-
-
-\- C++
-
-\- OpenGL
-
-\- Assimp
-
-\- Visual Studio
-
-
-
-\## Institución
-
-
-
-\*\*Universidad Nacional Autónoma de México\*\*  
-
-Facultad de Ingeniería  
-
-Materia: Computación Gráfica
-
-
-
-\## Documentación
-
-
-
-Para conocer el funcionamiento de la aplicación y los detalles de su desarrollo, consultar los archivos disponibles en la carpeta `Documentación`.
-
+Universidad Nacional Autónoma de México (UNAM)  
+Facultad de Ingeniería
